@@ -39,13 +39,13 @@ Setup
 
 Basic Requirements
 ---------------------
-Router flashed with Tomato Firmware
+- Router flashed with Tomato Firmware
 
-Basic Linux knowledge
+- Basic Linux knowledge
 
-A network mounted filesystem
+- A network mounted filesystem
 
-Tested on latest Shibby build [http://tomato.groov.pl](http://tomato.groov.pl)
+- Tested on latest Shibby build [http://tomato.groov.pl](http://tomato.groov.pl)
 
 
 **Note: Use at your own risk. Be careful and thoughtful not to brick your router.**
