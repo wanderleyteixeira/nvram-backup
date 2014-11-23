@@ -1,3 +1,8 @@
+This script will backup specific [NVRAM](http://en.wikipedia.org/wiki/Non-volatile_random-access_memory “NVRAM”) variables and its values. It is helpful after an upgrade or in the event of problems since Tomato capability to backup and restore is not safe.
+
+I have been using this simple backup script for the past year. It runs every month automatically to backup my selected settings, and generates a script that can be used later to restore configurations. 
+
+
 Setup
 ---------------------
 * Download the nvram_backup script to your desired backup directory (i.e. CIFS, USB, or NFS). I usually mount a CIFS1 or USB where I keep all backup data, logs, and scripts. 
