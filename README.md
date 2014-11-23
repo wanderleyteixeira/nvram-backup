@@ -1,8 +1,6 @@
 Setup
 ---------------------
-* Download the nvram_backup script to your desired backup directory (i.e. CIFS, USB, or NFS). I usually mount a CIFS1 folder where I keep all backup data, logs, and scripts. 
-
-* Copy this snippet to your router’s init script section as follows:
+* Download the nvram_backup script to your desired backup directory (i.e. CIFS, USB, or NFS). I usually mount a CIFS1 or USB where I keep all backup data, logs, and scripts. 
 
 1. Login to your router
 2. Click on **Administration** then **Scripts**
