@@ -14,7 +14,7 @@
 DATE=`date +%m%d%Y`
 # Location of the scripts remotely
 FOLDER=/<REPLACE WITH FOLDER>/
-DEST_FOLDER=${FOLDER}nvram_restore_${DATE}.sh
+DEST_FOLDER=${FOLDER}/nvram_restore_${DATE}.sh
 
 nvram export --tab output | sed 's~\\\\~\\~g' > /tmp/temp_nvram
 
