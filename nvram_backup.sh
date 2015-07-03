@@ -40,7 +40,7 @@ echo "nvram commit" >> ${DEST_FOLDER}
 chmod +x ${DEST_FOLDER}
 rm /tmp/temp_nvram
 
-logger NVRAM settings backed up successfully
+logger -t "$(basename $0)" "NVRAM settings backed up successfully"
 
 # todo
 # get rid of the old backups, with the old backup dirs being thirty days old
