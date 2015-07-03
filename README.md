@@ -21,8 +21,8 @@ Setup
 3. Paste the following in the **Init** tab and click to save
 
 ```
-  REMOTE_PATH="<ADD FULL REMOTE PATH WHERE SCRIPT RESIDES>"
-  LOCAL_PATH="/tmp/nvrambackup"
+  REMOTE_PATH=<ADD FULL REMOTE PATH WHERE SCRIPT RESIDES>
+  LOCAL_PATH=/tmp/nvrambackup
   if [ ! -s "$REMOTE_PATH" ]
     then
     sleep 5
