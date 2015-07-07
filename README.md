@@ -1,4 +1,4 @@
-This script will backup specific [NVRAM](http://en.wikipedia.org/wiki/Non-volatile_random-access_memory “NVRAM”) variable values. It is helpful after an upgrade or in the event of problems since TomatoUSB capability to backup and restore is not reliable.
+This script will backup specific [NVRAM](http://en.wikipedia.org/wiki/Non-volatile_random-access_memory “NVRAM”) variables and its values, and generate a script to restore the common settings. It is helpful after an upgrade or in the event of problems since TomatoUSB capability to backup and restore is not reliable.
 
 I have been using this simple backup script for the past year. It runs every month automatically to backup my selected settings, and generates a script that can be used later to restore configurations. 
 
@@ -10,7 +10,7 @@ Basic Requirements
 
 - A network mounted filesystem
 
-- Tested on latest [Shibby build](http://tomato.groov.pl)
+- Tested on AC-66U running latest [Shibby build](http://tomato.groov.pl)
 
 Setup
 ---------------------
