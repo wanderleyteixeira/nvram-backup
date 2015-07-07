@@ -1,4 +1,4 @@
-This script will backup specific [NVRAM](http://en.wikipedia.org/wiki/Non-volatile_random-access_memory “NVRAM”) variables and its values. It is helpful after an upgrade or in the event of problems since Tomato capability to backup and restore is not safe.
+This script will backup specific [NVRAM](http://en.wikipedia.org/wiki/Non-volatile_random-access_memory “NVRAM”) variable values. It is helpful after an upgrade or in the event of problems since TomatoUSB capability to backup and restore is not reliable.
 
 I have been using this simple backup script for the past year. It runs every month automatically to backup my selected settings, and generates a script that can be used later to restore configurations. 
 
