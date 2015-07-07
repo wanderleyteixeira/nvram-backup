@@ -1,6 +1,5 @@
-This script will backup specific [NVRAM](http://en.wikipedia.org/wiki/Non-volatile_random-access_memory “NVRAM”) variables and its values, and generate a script to restore the common settings. It is helpful after an upgrade or in the event of problems since TomatoUSB capability to backup and restore is not reliable.
+This script will backup specific [NVRAM](http://en.wikipedia.org/wiki/Non-volatile_random-access_memory “NVRAM”) variables and its values, and generates a script that can be used later to restore configurations. It is helpful after an upgrade or in the event of problems.
 
-I have been using this simple backup script for the past year. It runs every month automatically to backup my selected settings, and generates a script that can be used later to restore configurations. 
 
 Basic Requirements
 ---------------------
@@ -14,7 +13,7 @@ Basic Requirements
 
 Setup
 ---------------------
-* Download the nvram_backup script to your desired backup directory (i.e. CIFS, USB, or NFS). I usually mount a CIFS1 or USB where I keep all backup data, logs, and scripts. 
+* Download the nvram-backup script to your desired backup directory (i.e. CIFS, USB, or NFS). I usually mount a CIFS1 or USB where I keep all backup data, logs, and scripts. 
 
 1. Login to your router
 2. Click on **Administration** then **Scripts**
