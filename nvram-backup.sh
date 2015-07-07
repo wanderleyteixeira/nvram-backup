@@ -13,7 +13,7 @@
 ##
 DATE=`date +%m%d%Y`
 # Location of the scripts remotely
-FOLDER=<REPLACE WITH FOLDER>
+FOLDER=<REPLACE WITH FULL PATH>
 DEST_FOLDER=${FOLDER}/nvram-restore-${DATE}.sh
 readonly cfg="${0%.*}.cfg"
 
