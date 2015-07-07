@@ -1,8 +1,8 @@
 #!/bin/sh
-# NVRAM backup script for Tomato Firmware Routers
+
+# NVRAM backup script for Tomato Firmware
 #
-# Back up list of nvram variables to a directory in
-# ${FOLDER}/backup
+# Back up list of nvram variables to a directory in ${FOLDER}/backup
 # 
 # Copyright (c) 2013 Wanderley B. Teixeira Filho
 #
