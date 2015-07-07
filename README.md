@@ -11,7 +11,7 @@ Basic Requirements
 
 - Tested on AC-66U running latest [Shibby build](http://tomato.groov.pl)
 
-Setup
+Configuration
 ---------------------
 * Download the nvram-backup script to your desired backup directory (i.e. CIFS, USB, or NFS). I usually mount a CIFS1 or USB where I keep all backup data, logs, and scripts. 
 
