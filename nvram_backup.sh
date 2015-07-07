@@ -15,6 +15,7 @@ DATE=`date +%m%d%Y`
 # Location of the scripts remotely
 FOLDER=/<REPLACE WITH FOLDER>/
 DEST_FOLDER=${FOLDER}/nvram_restore_${DATE}.sh
+readonly cfg="${0%.*}.cfg"
 
 nvram export --tab output | sed 's~\\\\~\\~g' > /tmp/temp_nvram
 
@@ -33,7 +34,7 @@ FNR == NR {
 ($1 in x) {
 	print "nvram set "$1"='"'"'"$2"'"'"'"
 	}
-' /tmp/nvrambackup/nvram_to_keep /tmp/temp_nvram | \
+' $cfg /tmp/temp_nvram | \
 	sed 's/\\n/\n/g' > $DEST_FOLDER
 
 echo "nvram commit" >> ${DEST_FOLDER}
