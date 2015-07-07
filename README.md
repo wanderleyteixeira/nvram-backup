@@ -27,23 +27,23 @@ Setup
     then
     sleep 5
     mkdir $LOCAL_PATH
-    cp $REMOTE_PATH/nvram_backup.sh $LOCAL_PATH/nvram_backup.sh
-    cp $REMOTE_PATH/nvram_to_keep $LOCAL_PATH/nvram_to_keep
-    chmod a+x $LOCAL_PATH/nvram_backup.sh
+    cp $REMOTE_PATH/nvram-backup.sh $LOCAL_PATH/nvram-backup.sh
+    cp $REMOTE_PATH/nvram-backup.cfg $LOCAL_PATH/nvram-backup.cfg
+    chmod a+x $LOCAL_PATH/nvram-backup.sh
   fi
 ```
 
-* Choose the variables you would like to backup and place it on a file called *nvram_to_keep*. You can get a list of all variables and values currently available by ssh’ing to your router and execute the following command:
+* Choose the variables you would like to backup and place it on a file called *nvram-backup.cfg*. You can get a list of all variables and values currently available by ssh’ing to your router and execute the following command:
 
 ```  nvram show```
 
 * Run and verify:
 
-```  sh /tmp/nvrambackup/nvram_backup.sh```
+```  sh /tmp/nvrambackup/nvram-backup.sh```
 
 * Add cronjob to run at 12:00AM on the first of every month:	
 
-```  cru a backup_nvram "0 0 1 * * /tmp/nvrambackup/nvram_backup.sh"```
+```  cru a backup-nvram "0 0 1 * * /tmp/nvrambackup/nvram-backup.sh"```
 
 Restore
 ---------------------
