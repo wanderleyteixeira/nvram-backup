@@ -3,7 +3,7 @@ This script will backup specific [NVRAM](http://en.wikipedia.org/wiki/Non-volati
 
 Basic Requirements
 ---------------------
-- Router flashed with Tomato Firmware
+- Router (MIPSEL) flashed with Tomato Firmware
 
 - Basic Linux knowledge
 
